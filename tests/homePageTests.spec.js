@@ -7,5 +7,6 @@ test('homePageTest', async({page})=>{
 
     await h1.go();
     await h1.checkHomeButton();
+    await h1.test();
 
 })
