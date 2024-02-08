@@ -14,4 +14,8 @@ exports.homePage = class homePage{
     async checkHomeButton(){
         await expect(this.homeButton).toBeVisible();
     }
+
+    async test(){
+        console.log('test');
+    }
 }
