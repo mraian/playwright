@@ -5,6 +5,7 @@ test('homePageTest', async({page})=>{
 
     const h1 = new homePage(page);
 
-   await h1.go();
-   await h1.checkHomeButton();
+    await h1.go();
+    await h1.checkHomeButton();
+
 })
